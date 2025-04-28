@@ -1,52 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>FCCU University</title>
-  </head>
-  <body>
-    <header>
-      <div>
-        <img src="" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <title>FCCU University</title>
+</head>
+
+<body>
+  <header>
+    <div class="headerDiv">
+      <div class="headerLogoImg">
+        <img src="./img/blue-logo-scl2.png" alt="fcCollageLogo" />
       </div>
-      <div>
-        <div>
-          <ul>
-            <li>Affiliation</li>
-            <li>
+      <div class="navbarDiv">
+        <div class="uperNavContainer">
+          <ul class="uperNavContent">
+            <li class="menu-text">Affiliation</li>
+            <li class="menu-text">
               Website Directory
-              <ul>
-                <li>Intermediate</li>
-                <li>Library</li>
-                <li>CPPG</li>
-                <li>CTL</li>
-              </ul>
+              <i class="fa-solid fa-caret-down dropdown-icon-webd"></i>
+              <div class="dropdownAtUperNav">
+                <a>Intermediate</a>
+                <a>Library</a>
+                <a>CPPG</a>
+                <a>CTL</a>
+              </div>
             </li>
-            <li>Directory</li>
-            <li>Giving</li>
-            <li>
-              <i>icon</i>
-              <p>INFO FOR</p>
+            <li class="menu-text">Directory</li>
+            <li class="menu-text">Giving</li>
+            <li class="menuInfo-text menu-text">
+              <div class="icon-contner"><i class="fa-solid fa-caret-down"></i></div>
+              <div>INFO FOR</div>
+              <!-- INFO FOR -->
+              <div class="dropdownAtUperNav">
+                <a>Students</a>
+                <a>Alumni</a>
+                <a>Faculty & Staff</a>
+              </div>
             </li>
           </ul>
+          <div class="searchBar">
+            <input type="text" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
         </div>
-        <div class="searchBar">
-          <input type="text" placeholder="Search" />
-          <i>icon</i>
+        <div class="lowerNavContainer">
+          <ul class="lowerNavContentinHeader">
+            <li class="lwr-menu-text">Home</li>
+            <li class="lwr-menu-text">About
+              <div class="dropdownLwrNav">
+                <div class="LwrDropdownUprDiv">
+                  <div class="LwrDropdownDiv">
+                    <div class=""><img src="./img/About-min-600x337.png" alt=""></div>
+                    <div>
+                      <p>Forman Christian College (A Chartered University) is a historic seat of higher learning in
+                        Pakistan with a history dating back to 1864. It offers American-style Liberal Arts education at
+                        Pakistani prices.</p>
+                    </div>
+                    <ul>
+                      <li>Mission & Vision</li>
+                      <li>Goals</li>
+                      <li>Board of Directors</li>
+                      <li>Board of Governors</li>
+                      <li>University Leadership</li>
+                      <li>History</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lwr-menu-text">Admissions
+              <div class="dropdownLwrNav">
+                <div class="LwrDropdownUprDiv">
+                  <div class="LwrDropdownDiv">
+                    <ul>
+                      <li>Overview</li>
+                      <li>Bachelor’s Programs</li>
+                      <li>Postgraduate Programs</li>
+                      <li>PharmD</li>
+                    </ul>
+                    <ul>
+                      <li>Fee Structure</li>
+                      <li>Campus Residence</li>
+                    </ul>
+                    <div>
+                      <img src="./img/Admissions-2-600x337.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lwr-menu-text">Academics
+              <div class="dropdownLwrNav">
+                <div class="LwrDropdownUprDiv">
+                  <div class="LwrDropdownDiv">
+                    <div>
+                      <img src="./img/Academics-768x512.png" alt="">
+                    </div>
+                    <ul>
+                      <li>Overview </li>
+                      <li>Schools & Faculties </li>
+                      <li>Faculty Directory </li>
+                    </ul>
+                    <ul>
+                      <li>Academic Catalogs and Handbooks </li>
+                      <li>Academic Calendar </li>
+                      <li>Academic Advising Services </li>
+                      <li>Academic Services </li>
+                      <li>Vice Rector’s List 2024 Fall </li>
+                      <li>Exam Schedule </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lwr-menu-text">Research</li>
+            <li class="lwr-menu-text">Campus Life
+              <div class="dropdownLwrNav">
+                <div class="LwrDropdownUprDiv">
+                  <div class="LwrDropdownDiv">
+                    <div>
+                      <div><img src="./img/cropped-a-1024x575-1-600x337.png" alt=""></div>
+                    </div>
+                    <ul>
+                      <li>Overview</li>
+                      <li>Student Societies</li>
+                      <li>Student Success</li>
+                      <li>Career Services</li>
+                      <li>Sports</li>
+                    </ul>
+                    <ul>
+                      <li>International Education</li>
+                      <li>Health Services</li>
+                      <li>Counseling Services</li>
+                      <li>FCCU Air Quality Index</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="lwr-menu-text">Financial Aid & Scholarships</li>
+          </ul>
         </div>
       </div>
-    </header>
-  </body>
+  </header>
+  <section class="heroSection">
+    <img src="./img/admission-banner-2025-fall-april.png" alt="">
+    <a><u>APPLY NOW</u> <span><i class="fa-solid fa-share"></i></span></a>
+  </section>
+  <section class="legacySection">
+    <div class="legacyContainer">
+      <div class="uperContainer legacyContentContainer">
+        <div>
+          <strong>A legacy of Possibilities</strong>
+          <p>
+            We are a university with an illustrious past and a bright future. Our students step into their professional
+            lives
+            exuding confidence and equipped with the latest knowledge, analytical and thinking skills unmatchable in
+            Pakistan. This
+            is made possible through our genuine American Liberal Arts education offered at Pakistani prices.
+          </p>
+        </div>
+        <div class="legacyImgContainer">
+          <img src="./img/A-legacy-of-Possibilities-image.png" alt="">
+        </div>
+      </div>
+      <div class="lwrContainer legacyContentContainer">
+        <div class="legacyImgContainer">
+          <img src="./img/Learn-about-Financial-Aid-image.png" alt="">
+        </div>
+        <div>
+          <strong>Learn about Financial Aid</strong>
+          <p>
+            While offering quality education at affordable rates, FCCU also makes sure no deserving student is deprived
+            of education
+            due to financial constraints. The University allocates substantial sums each year to offer such students
+            financial aid
+            and merit scholarships. Explore More >
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="programsSection">
+    <div class="fstProgramContainer porgramContainer">
+      <h1>Academic Programs</h1>
+      <hr>
+      <a href="">Learn More</a>
+    </div>
+    <div class="secendProgramContainer porgramContainer">
+      <h1>Academic Programs</h1>
+      <hr>
+      <a href="">Learn More</a>
+    </div>
+    <div class="therdProgramContainer porgramContainer">
+      <h1>Academic Programs</h1>
+      <hr>
+      <a href="">Learn More</a>
+    </div>
+  </section>
+</body>
+
 </html>
